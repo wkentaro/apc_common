@@ -4,6 +4,10 @@ dist: trusty
 
 language: generic
 
+env:
+  matrix:
+    - ROS_DISTRO=indigo
+
 # Install system dependencies, namely ROS.
 before_install:
   # Define some config vars.

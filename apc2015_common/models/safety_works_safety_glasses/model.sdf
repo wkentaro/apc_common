@@ -28,9 +28,12 @@
       <collision name="safety_works_safety_glasses_collision">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>model://safety_works_safety_glasses/meshes/safety_works_safety_glasses.dae</uri>
-          </mesh>
+          <box>
+            <size>0.01 0.01 0.01</size>
+          </box>
+           # <mesh>
+           #   <uri>model://safety_works_safety_glasses/meshes/safety_works_safety_glasses.dae</uri>
+           # </mesh>
         </geometry>
         <surface>
           <friction>
